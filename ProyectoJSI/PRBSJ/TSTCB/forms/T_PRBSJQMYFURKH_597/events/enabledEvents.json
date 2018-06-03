@@ -1,0 +1,32 @@
+[
+    {
+        "attributeName": "",
+        "controlId": "CM_TPRBSJQM_1P9",
+        "controlName": "",
+        "controlType": "",
+        "enabledEvents": [
+            "executeCommand"
+        ],
+        "enabledEventsExecutionType": [
+            1
+        ],
+        "entityName": "",
+        "eventsType": "commandEventType"
+    },
+    {
+        "attributeName": "",
+        "controlId": "Q_CUENTAHU_7327",
+        "controlName": "CuentaQuery_7327",
+        "controlType": "Query",
+        "enabledEvents": [
+            "executeQuery"
+        ],
+        "enabledEventsExecutionType": [
+            {
+                "$ref": "../../../../../PRBSJ/TSTCB/queries/Q_CUENTAHU_7327.json#/customEvents"
+            }
+        ],
+        "entityName": "Cuenta",
+        "eventsType": "queryEventType"
+    }
+]

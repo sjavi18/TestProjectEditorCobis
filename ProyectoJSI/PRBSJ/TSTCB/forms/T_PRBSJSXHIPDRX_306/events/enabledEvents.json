@@ -1,0 +1,90 @@
+[
+    {
+        "attributeName": "",
+        "controlId": "CM_TPRBSJSX_X9B",
+        "controlName": "",
+        "controlType": "",
+        "enabledEvents": [
+            "executeCommand"
+        ],
+        "enabledEventsExecutionType": [
+            1
+        ],
+        "entityName": "",
+        "eventsType": "commandEventType"
+    },
+    {
+        "attributeName": "",
+        "controlId": "VC_TESTHEADRE_271306",
+        "controlName": "",
+        "controlType": "",
+        "enabledEvents": [
+            "initData",
+            "onCloseModal"
+        ],
+        "enabledEventsExecutionType": [
+            1,
+            1
+        ],
+        "entityName": "",
+        "eventsType": "viewContainerEventType"
+    },
+    {
+        "attributeName": "",
+        "controlId": "CEQV_201QV_4143_92378_209",
+        "controlName": "QV_4143_92378",
+        "controlType": "Button",
+        "enabledEvents": [
+            "gridCommand"
+        ],
+        "enabledEventsExecutionType": [
+            1
+        ],
+        "entityName": "Cuenta",
+        "eventsType": "queryViewCommandEventType"
+    },
+    {
+        "attributeName": "",
+        "controlId": "VA_GRIDROWCOMMMDDD_145151",
+        "controlName": "VA_GRIDROWCOMMMDDD_145151",
+        "controlType": "Button",
+        "enabledEvents": [
+            "gridRowCommand"
+        ],
+        "enabledEventsExecutionType": [
+            1
+        ],
+        "entityName": "Cuenta",
+        "eventsType": "visualAttributeEventType"
+    },
+    {
+        "attributeName": "",
+        "controlId": "VA_VABUTTONWQWQIKI_894151",
+        "controlName": "VA_VABUTTONWQWQIKI_894151",
+        "controlType": "Button",
+        "enabledEvents": [
+            "executeCommand"
+        ],
+        "enabledEventsExecutionType": [
+            1
+        ],
+        "entityName": "Cliente",
+        "eventsType": "visualAttributeEventType"
+    },
+    {
+        "attributeName": "",
+        "controlId": "Q_CUENTAND_4143",
+        "controlName": "CuentaQuery_4143",
+        "controlType": "Query",
+        "enabledEvents": [
+            "executeQuery"
+        ],
+        "enabledEventsExecutionType": [
+            {
+                "$ref": "../../../../../PRBSJ/TSTCB/queries/Q_CUENTAND_4143.json#/customEvents"
+            }
+        ],
+        "entityName": "Cuenta",
+        "eventsType": "queryEventType"
+    }
+]

@@ -1,0 +1,12 @@
+{
+    "EN_CUENTAOOT_656": {
+        "queries": {
+            "Q_CUENTAHU_7327": {
+                "$ref": "../TSTCB/queries/Q_CUENTAHU_7327.json#"
+            },
+            "Q_CUENTAND_4143": {
+                "$ref": "../TSTCB/queries/Q_CUENTAND_4143.json#"
+            }
+        }
+    }
+}

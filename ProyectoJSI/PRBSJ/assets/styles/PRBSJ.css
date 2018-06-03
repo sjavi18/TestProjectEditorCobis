@@ -1,0 +1,89 @@
+.cb-form-header .cb-secondary-text {
+  margin-top: 0;
+  opacity: 1;
+  -webkit-transition: margin-top 0.3s, opacity 0.3s;
+  -moz-transition: margin-top 0.3s, opacity 0.3s;
+  -o-transition: margin-top 0.3s, opacity 0.3s;
+  transition: margin-top 0.3s, opacity 0.3s;
+}
+.cb-form-header .cb-fields {
+  max-height: 1000px;
+  opacity: 1;
+  overflow: hidden;
+  -webkit-transition: max-height 0.3s, opacity 0.3s;
+  -moz-transition: max-height 0.3s, opacity 0.3s;
+  -o-transition: max-height 0.3s, opacity 0.3s;
+  transition: max-height 0.3s, opacity 0.3s;
+}
+.cb-form-header .cb-collapsed .cb.caret {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  -o-transition: -o-transform 0.3s;
+  transition: -webkit-transform 0.3s,-moz-transform 0.3s,-o-transform 0.3s,transform 0.3s;
+}
+.cb-form-header .cb-collapsed .cb-secondary-text {
+  margin-top: -20px;
+  opacity: 0;
+}
+.cb-form-header .cb-collapsed .cb-fields {
+  max-height: 0;
+  opacity: 0;
+}
+.cb-form-header a {
+  color: #FFF;
+}
+.cb-form-header h2 {
+  margin-top: 0;
+}
+.cb-form-header .control-label {
+  color: #b9d4ec;
+}
+.cb-form-header .form-control {
+  border-color: #FFF;
+  box-shadow: 0 0;
+}
+.cb-form-header .form-control:focus {
+  border-color: #66afe9;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.cb-divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+  
+.cb-form-header .btn.btn-default:focus,
+.cb-form-header .btn.btn-default:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.cb-form-header .btn.btn-default.active,
+.cb-form-header .btn.btn-default:active {
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.cb-form-header .btn-group.open .btn {
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+  
+.cb-form-header .btn.btn-default {
+  background: transparent;
+  color: #FFF;
+  border-color: transparent;
+}
+  
+cobis-header + .cb-view-container-root.container-fluid {
+    padding: 0px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin: opx !important;
+    width: auto;
+}

@@ -1,0 +1,54 @@
+{
+    "APP_JSITESTBILI_601": {
+        "forms": {
+            "PRBSJ": [
+                {
+                    "generated": 4,
+                    "moduleId": "PRBSJ",
+                    "name": "TestBli",
+                    "subModuleId": "TSTCL",
+                    "taskId": "T_PRBSJWGYXTIWJ_312",
+                    "type": "Simple form"
+                }
+            ]
+        },
+        "generate": {
+            "customEventImpl": "Custom",
+            "customEventImplPath": "{projectPath}\\build",
+            "displayName": "JSItestBLI",
+            "mode": "Development",
+            "type": "HTML5"
+        },
+        "mainPortletTaskId": "T_PRBSJWGYXTIWJ_312",
+        "modules": [
+            "PRBSJ"
+        ],
+        "name": "JSItestBLI"
+    },
+    "APP_JSITESTHARD_874": {
+        "forms": {
+            "PRBSJ": [
+                {
+                    "generated": 4,
+                    "moduleId": "PRBSJ",
+                    "name": "TestHeader",
+                    "subModuleId": "TSTCB",
+                    "taskId": "T_PRBSJSXHIPDRX_306",
+                    "type": "Simple form"
+                }
+            ]
+        },
+        "generate": {
+            "customEventImpl": "Custom",
+            "customEventImplPath": "{projectPath}\\build",
+            "displayName": "JSITestHeader",
+            "mode": "Development",
+            "type": "HTML5"
+        },
+        "mainPortletTaskId": "T_PRBSJSXHIPDRX_306",
+        "modules": [
+            "PRBSJ"
+        ],
+        "name": "JSITestHeader"
+    }
+}

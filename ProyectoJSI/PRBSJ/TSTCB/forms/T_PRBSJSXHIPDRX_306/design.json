@@ -1,0 +1,811 @@
+{
+    "autoCrudStr": "F",
+    "cobisPattern": "Consolidate View",
+    "cobisPatternId": 1,
+    "commands": [
+        {
+            "action": null,
+            "causesValidation": false,
+            "causesValidationAsString": "F",
+            "close": false,
+            "closeAsString": "F",
+            "commandType": 0,
+            "customEvents": [
+                {
+                    "commandEventType": {
+                        "availableExecutionType": 7,
+                        "description": "Permite personalizar la acción a ejecutar de un command o de un ActionControl",
+                        "eventId": 10,
+                        "name": "ExecuteCommand"
+                    },
+                    "customEventId": "CECM_010CM_TPRBSJSX_X9B_130",
+                    "customizationLayer": 0,
+                    "customizationLayerDescription": "ECU",
+                    "enabled": "T",
+                    "eventActions": [
+                    ],
+                    "executionType": 1,
+                    "filter": null,
+                    "isEnabled": true
+                }
+            ],
+            "customizationLayer": 0,
+            "customizationLayerDescription": "ECU",
+            "enabled": 4095,
+            "group": null,
+            "id": {
+                "commandId": "CM_TPRBSJSX_X9B"
+            },
+            "imageId": null,
+            "label": {
+                "defaultValue": {
+                    "$ref": "../../../../PRBSJ/assets/languages/PRBSJ.json#/PRBSJ/LBL/LBL_PRBSJ_GUARDARAG_21949"
+                },
+                "labelId": "LBL_PRBSJ_GUARDARAG_21949",
+                "moduleId": "PRBSJ"
+            },
+            "layoutType": "Command",
+            "name": "Command1",
+            "options": 0,
+            "order": 1,
+            "showInMode": 4095,
+            "userControl": {
+                "type": "A",
+                "userControlId": "Button"
+            },
+            "validationGroup": null
+        }
+    ],
+    "customEvents": [
+    ],
+    "customizationLayer": 0,
+    "customizationLayerDescription": "ECU",
+    "graphicSupportStr": "F",
+    "header": {
+        "headerCustomEvents": [
+            {
+                "customEventId": "LDHD_010HD_PRODUCTO_5GT_121",
+                "executionType": 2,
+                "headerEventType": {
+                    "availableExecutionType": 7,
+                    "description": "Permite cargar acciones a la cabecera",
+                    "eventId": 600,
+                    "name": "LoadHeader"
+                },
+                "isEnabled": true
+            },
+            {
+                "customEventId": "CECM_015CM_CGENERIC_HDR_208",
+                "executionType": 7,
+                "headerEventType": {
+                    "availableExecutionType": 7,
+                    "description": "Permite personalizar la acción a ejecutarla",
+                    "eventId": 10,
+                    "name": "ExecuteCommand"
+                },
+                "isEnabled": true
+            },
+            {
+                "customEventId": "FDCM_015HD_PRODUCTO_5GT_207",
+                "executionType": 1,
+                "headerEventType": {
+                    "availableExecutionType": 1,
+                    "description": "Permite personalizar los customDialogParameters al navegar o abrir modales",
+                    "eventId": 601,
+                    "name": "beforeHeaderNavigate"
+                },
+                "isEnabled": true
+            }
+        ],
+        "headerId": "HD_HEADERJIS_479",
+        "name": "HeaderJSI",
+        "userControl": {
+            "type": "A",
+            "userControlId": "LoadHeader"
+        }
+    },
+    "id": {
+        "moduleId": "PRBSJ",
+        "subModuleId": "TSTCB",
+        "taskId": "T_PRBSJSXHIPDRX_306",
+        "version": "1.0.0"
+    },
+    "isImported": false,
+    "mainViewContainerId": "VC_TESTHEADRE_271306",
+    "modeEnabled": 4095,
+    "name": {
+        "$ref": "../../../../PRBSJ/relations/componentKeys.json#/TSTCB/Forms/T_PRBSJSXHIPDRX_306/name"
+    },
+    "tempSaveStr": "F",
+    "viewContainers": [
+        {
+            "breadcrumbs": "Automatic",
+            "colSpan": 1,
+            "collapsedStr": "F",
+            "columnsNum": 1,
+            "componentStyle": null,
+            "customEvents": [
+                {
+                    "customEventId": "CEVC_002T_PRBSJSXHIPDRX_306_101",
+                    "customizationLayer": 0,
+                    "customizationLayerDescription": "ECU",
+                    "enabled": "T",
+                    "eventActions": [
+                    ],
+                    "executionType": 1,
+                    "filter": null,
+                    "isEnabled": true,
+                    "viewContainerEventType": {
+                        "availableExecutionType": 7,
+                        "description": "Inicialización de datos de un ViewContainer, despues de este evento se realiza el segimiento de cambios en los datos",
+                        "eventId": 2,
+                        "name": "InitData"
+                    }
+                },
+                {
+                    "customEventId": "CEVC_501T_PRBSJSXHIPDRX_306_537",
+                    "customizationLayer": 0,
+                    "customizationLayerDescription": "ECU",
+                    "enabled": "T",
+                    "eventActions": [
+                    ],
+                    "executionType": 1,
+                    "filter": null,
+                    "isEnabled": true,
+                    "viewContainerEventType": {
+                        "availableExecutionType": 7,
+                        "description": "Evento que actua como listener cuando se cierra ventanas modales.",
+                        "eventId": 501,
+                        "name": "onCloseModal"
+                    }
+                }
+            ],
+            "customizationLayer": 0,
+            "customizationLayerDescription": "ECU",
+            "enabled": 4095,
+            "id": {
+                "moduleId": "PRBSJ",
+                "subModuleId": "TSTCB",
+                "taskId": "T_PRBSJSXHIPDRX_306",
+                "taskVersion": "1.0.0",
+                "viewContainerId": "VC_TESTHEADRE_271306"
+            },
+            "layoutType": "Group",
+            "name": "TestHeader",
+            "options": 0,
+            "responsiveLayouts": null,
+            "responsivity": false,
+            "style": null,
+            "view": {
+                "groups": [
+                    {
+                        "colSpan": 1,
+                        "collapsedStr": "F",
+                        "componentStyle": null,
+                        "customEvents": [
+                        ],
+                        "enabled": 4095,
+                        "eventType": 0,
+                        "groupId": "G_TESTHEADRD_421151",
+                        "groups": [
+                            {
+                                "colSpan": 1,
+                                "collapsedStr": "F",
+                                "columnsNum": 3,
+                                "componentStyle": null,
+                                "customEvents": [
+                                ],
+                                "enabled": 4095,
+                                "entity": {
+                                    "$ref": "../../../../PRBSJ/entities/EN_CUENTAOOT_656.json#"
+                                },
+                                "eventType": 0,
+                                "groupId": "G_TESTHEADER_179151",
+                                "htmlSection": "F",
+                                "independentValidation": "F",
+                                "layoutType": "Group",
+                                "name": "Group2864",
+                                "order": 2,
+                                "orientation": "V",
+                                "parentLayoutType": "TabbedLayout",
+                                "queryView": {
+                                    "actionDesign": "Button",
+                                    "actions": [
+                                        "Create,Update,Delete"
+                                    ],
+                                    "allowPaging": false,
+                                    "allowPagingStr": "F",
+                                    "allowSorting": false,
+                                    "allowSortingStr": "F",
+                                    "componentStyle": null,
+                                    "confirmRowDeletion": false,
+                                    "confirmRowDeletionStr": "F",
+                                    "customEvents": [
+                                    ],
+                                    "customUrlDialog": null,
+                                    "customizationLayer": 0,
+                                    "customizationLayerDescription": "ECU",
+                                    "deleteCommandEnabled": true,
+                                    "deleteCommandEnabledStr": "T",
+                                    "dialogTitleLabelId": null,
+                                    "editCommandEnabled": true,
+                                    "editCommandEnabledStr": "T",
+                                    "editMode": "0",
+                                    "entityName": {
+                                        "$ref": "../../../../PRBSJ/entities/EN_CUENTAOOT_656.json#/name"
+                                    },
+                                    "hasDetail": false,
+                                    "hasDetailString": "F",
+                                    "height": null,
+                                    "includeQueryMembers": [
+                                        "AT53_NUMEROMR656",
+                                        "AT78_SALDOBYY656",
+                                        "AT40_FECHAUUR656"
+                                    ],
+                                    "insertCommandEnabled": true,
+                                    "insertCommandEnabledStr": "T",
+                                    "modalSize": null,
+                                    "modeSelection": "None",
+                                    "moduleIdDialog": null,
+                                    "multiSelectEnabledStr": "F",
+                                    "name": "QV_4143_92378",
+                                    "options": 0,
+                                    "pageSize": null,
+                                    "query": {
+                                        "$ref": "../../../../PRBSJ/TSTCB/queries/Q_CUENTAND_4143.json#"
+                                    },
+                                    "queryId": "Q_CUENTAND_4143",
+                                    "queryVersion": "1.0.0",
+                                    "queryViewCustomActions": [
+                                        {
+                                            "action": null,
+                                            "commandImageId": null,
+                                            "commandName": "GridCommand",
+                                            "commandOrder": 1,
+                                            "commandType": 0,
+                                            "customActionId": "CEQV_201QV_4143_92378_209",
+                                            "customizationLayer": 0,
+                                            "customizationLayerDescription": "ECU",
+                                            "enabled": "T",
+                                            "eventActions": [
+                                            ],
+                                            "executionType": 1,
+                                            "filter": null,
+                                            "label": {
+                                                "defaultValue": {
+                                                    "$ref": "../../../../PRBSJ/assets/languages/PRBSJ.json#/PRBSJ/LBL/LBL_PRBSJ_CAMBIAROD_51388"
+                                                },
+                                                "labelId": "LBL_PRBSJ_CAMBIAROD_51388",
+                                                "moduleId": "PRBSJ"
+                                            },
+                                            "name": "GridCommand",
+                                            "queryView": "QV_4143_92378",
+                                            "queryViewEventType": {
+                                                "availableExecutionType": 7,
+                                                "description": "Evento para los botones de Grilla",
+                                                "eventId": 201,
+                                                "name": "GridCommand"
+                                            },
+                                            "serviceName": null,
+                                            "userControl": {
+                                                "customizationLayer": "0",
+                                                "customizationLayerDescription": "ECU",
+                                                "description": "Designer Button",
+                                                "type": "A",
+                                                "userControlId": "Button"
+                                            }
+                                        }
+                                    ],
+                                    "queryViewId": "QV_4143_92378",
+                                    "queryViewType": "Grid",
+                                    "rowCommandAppearance": 0,
+                                    "style": null,
+                                    "subModuleIdDialog": null,
+                                    "taskIdDialog": "1.0.0",
+                                    "taskVersionDialog": null,
+                                    "typeFormDialog": null,
+                                    "userControl": {
+                                        "customizationLayer": 0,
+                                        "customizationLayerDescription": "ECU",
+                                        "description": "Designer Grid",
+                                        "name": "Designer Grid",
+                                        "type": "I",
+                                        "userControlId": "Grid"
+                                    },
+                                    "viewContainerIdDialog": null
+                                },
+                                "queryViewId": "QV_4143_92378",
+                                "responsiveLayouts": null,
+                                "responsivity": false,
+                                "style": null,
+                                "titleLabel": {
+                                    "defaultValue": {
+                                        "$ref": "../../../../PRBSJ/assets/languages/PRBSJ.json#/PRBSJ/LBL/LBL_PRBSJ_CUENTAQUM_51322"
+                                    },
+                                    "labelId": "LBL_PRBSJ_CUENTAQUM_51322",
+                                    "moduleId": "PRBSJ"
+                                },
+                                "visible": 4095,
+                                "visualAttributes": [
+                                    {
+                                        "aggregate": null,
+                                        "aggregateId": null,
+                                        "attributeValidations": [
+                                        ],
+                                        "colSpan": 1,
+                                        "componentInGrid": true,
+                                        "componentStyle": null,
+                                        "customEvents": [
+                                            {
+                                                "customEventId": "CEVA_307VA_GRIDROWCOMMMDDD_145151_572",
+                                                "customizationLayer": 0,
+                                                "customizationLayerDescription": "ECU",
+                                                "enabled": "T",
+                                                "eventActions": [
+                                                ],
+                                                "executionType": 1,
+                                                "filter": null,
+                                                "isEnabled": true,
+                                                "visualAttributeEventType": {
+                                                    "availableExecutionType": 7,
+                                                    "description": "Permite personalizar la acción a ejecutar de un actionControl",
+                                                    "eventId": 307,
+                                                    "name": "GridRowCommand"
+                                                }
+                                            }
+                                        ],
+                                        "customizationLayer": 0,
+                                        "customizationLayerDescription": "ECU",
+                                        "enabled": 4095,
+                                        "entityQuery": null,
+                                        "include": 4095,
+                                        "label": {
+                                            "defaultValue": {
+                                                "$ref": "../../../../PRBSJ/assets/languages/PRBSJ.json#/PRBSJ/LBL/LBL_PRBSJ_CAMBIARMN_55188"
+                                            },
+                                            "labelId": "LBL_PRBSJ_CAMBIARMN_55188",
+                                            "moduleId": "PRBSJ"
+                                        },
+                                        "maxRecords": null,
+                                        "name": "VA_GRIDROWCOMMMDDD_145151",
+                                        "options": 0,
+                                        "order": 4,
+                                        "queryModule": null,
+                                        "queryVersion": null,
+                                        "responsiveLayouts": null,
+                                        "responsivity": false,
+                                        "sizeWidthComposite": null,
+                                        "style": null,
+                                        "userControl": {
+                                            "isRowCommand": true,
+                                            "type": "A",
+                                            "userControlId": "Button"
+                                        },
+                                        "visible": 4095,
+                                        "visualAttributeId": "VA_GRIDROWCOMMMDDD_145151",
+                                        "width": null,
+                                        "widthComposite": "D"
+                                    },
+                                    {
+                                        "aggregate": null,
+                                        "aggregateId": null,
+                                        "attribute": {
+                                            "$ref": "../../../../PRBSJ/entities/EN_CUENTAOOT_656.json#/attributes/AT78_SALDOBYY656"
+                                        },
+                                        "attributeValidations": [
+                                        ],
+                                        "colSpan": 1,
+                                        "componentInGrid": true,
+                                        "componentStyle": null,
+                                        "customEvents": [
+                                        ],
+                                        "customizationLayer": 0,
+                                        "customizationLayerDescription": "ECU",
+                                        "enabled": 4095,
+                                        "include": 4095,
+                                        "label": {
+                                            "defaultValue": {
+                                                "$ref": "../../../../PRBSJ/assets/languages/PRBSJ.json#/PRBSJ/LBL/LBL_PRBSJ_SALDOFEFE_50038"
+                                            },
+                                            "labelId": "LBL_PRBSJ_SALDOFEFE_50038",
+                                            "moduleId": "PRBSJ"
+                                        },
+                                        "maxRecords": null,
+                                        "name": "saldo",
+                                        "options": 0,
+                                        "order": 2,
+                                        "readOnly": 8,
+                                        "responsiveLayouts": null,
+                                        "responsivity": false,
+                                        "sizeWidthComposite": null,
+                                        "style": null,
+                                        "textRows": 0,
+                                        "userControl": {
+                                            "type": "I",
+                                            "userControlId": "TextInputBox"
+                                        },
+                                        "visible": 4095,
+                                        "visualAttributeId": "VA_TEXTINPUTBOXCJF_941151",
+                                        "width": null,
+                                        "widthComposite": "D"
+                                    },
+                                    {
+                                        "aggregate": null,
+                                        "aggregateId": null,
+                                        "attribute": {
+                                            "$ref": "../../../../PRBSJ/entities/EN_CUENTAOOT_656.json#/attributes/AT40_FECHAUUR656"
+                                        },
+                                        "attributeValidations": [
+                                        ],
+                                        "colSpan": 1,
+                                        "componentInGrid": true,
+                                        "componentStyle": null,
+                                        "customEvents": [
+                                        ],
+                                        "customizationLayer": 0,
+                                        "customizationLayerDescription": "ECU",
+                                        "enabled": 4095,
+                                        "include": 4095,
+                                        "label": {
+                                            "defaultValue": {
+                                                "$ref": "../../../../PRBSJ/assets/languages/PRBSJ.json#/PRBSJ/LBL/LBL_PRBSJ_FECHAWEJU_76678"
+                                            },
+                                            "labelId": "LBL_PRBSJ_FECHAWEJU_76678",
+                                            "moduleId": "PRBSJ"
+                                        },
+                                        "maxRecords": null,
+                                        "name": "fecha",
+                                        "options": 0,
+                                        "order": 3,
+                                        "readOnly": 8,
+                                        "responsiveLayouts": null,
+                                        "responsivity": false,
+                                        "sizeWidthComposite": null,
+                                        "style": null,
+                                        "textRows": 0,
+                                        "userControl": {
+                                            "type": "I",
+                                            "userControlId": "TextInputBox"
+                                        },
+                                        "visible": 4095,
+                                        "visualAttributeId": "VA_TEXTINPUTBOXUOU_816151",
+                                        "width": null,
+                                        "widthComposite": "D"
+                                    },
+                                    {
+                                        "aggregate": null,
+                                        "aggregateId": null,
+                                        "attribute": {
+                                            "$ref": "../../../../PRBSJ/entities/EN_CUENTAOOT_656.json#/attributes/AT53_NUMEROMR656"
+                                        },
+                                        "attributeValidations": [
+                                        ],
+                                        "colSpan": 1,
+                                        "componentInGrid": true,
+                                        "componentStyle": null,
+                                        "customEvents": [
+                                        ],
+                                        "customizationLayer": 0,
+                                        "customizationLayerDescription": "ECU",
+                                        "enabled": 4095,
+                                        "include": 4095,
+                                        "label": {
+                                            "defaultValue": {
+                                                "$ref": "../../../../PRBSJ/assets/languages/PRBSJ.json#/PRBSJ/LBL/LBL_PRBSJ_NMEROCUNE_50770"
+                                            },
+                                            "labelId": "LBL_PRBSJ_NMEROCUNE_50770",
+                                            "moduleId": "PRBSJ"
+                                        },
+                                        "maxRecords": null,
+                                        "name": "numero",
+                                        "options": 0,
+                                        "order": 1,
+                                        "readOnly": 8,
+                                        "responsiveLayouts": null,
+                                        "responsivity": false,
+                                        "sizeWidthComposite": null,
+                                        "style": null,
+                                        "textRows": 0,
+                                        "userControl": {
+                                            "type": "I",
+                                            "userControlId": "TextInputBox"
+                                        },
+                                        "visible": 4095,
+                                        "visualAttributeId": "VA_TEXTINPUTBOXXVQ_880151",
+                                        "width": null,
+                                        "widthComposite": "D"
+                                    }
+                                ]
+                            },
+                            {
+                                "colSpan": 1,
+                                "collapsedStr": "F",
+                                "columnsNum": 2,
+                                "componentStyle": null,
+                                "customEvents": [
+                                ],
+                                "enabled": 4095,
+                                "entity": {
+                                    "$ref": "../../../../PRBSJ/entities/EN_CLIENTECL_719.json#"
+                                },
+                                "eventType": 0,
+                                "groupId": "G_TESTHEARER_396151",
+                                "htmlSection": "F",
+                                "independentValidation": "F",
+                                "layoutType": "Group",
+                                "name": "Group1340",
+                                "order": 1,
+                                "orientation": "V",
+                                "parentLayoutType": "TabbedLayout",
+                                "responsiveLayouts": null,
+                                "responsivity": false,
+                                "style": null,
+                                "titleLabel": {
+                                    "defaultValue": {
+                                        "$ref": "../../../../PRBSJ/assets/languages/PRBSJ.json#/PRBSJ/LBL/LBL_PRBSJ_CLIENTEKY_38464"
+                                    },
+                                    "labelId": "LBL_PRBSJ_CLIENTEKY_38464",
+                                    "moduleId": "PRBSJ"
+                                },
+                                "visible": 4095,
+                                "visualAttributes": [
+                                    {
+                                        "aggregate": null,
+                                        "aggregateId": null,
+                                        "attribute": {
+                                            "$ref": "../../../../PRBSJ/entities/EN_CLIENTECL_719.json#/attributes/AT68_CIRLUCDT719"
+                                        },
+                                        "attributeValidations": [
+                                        ],
+                                        "colSpan": 1,
+                                        "componentInGrid": false,
+                                        "componentStyle": null,
+                                        "customEvents": [
+                                        ],
+                                        "customizationLayer": 0,
+                                        "customizationLayerDescription": "ECU",
+                                        "enabled": 4095,
+                                        "include": 4095,
+                                        "label": {
+                                            "defaultValue": {
+                                                "$ref": "../../../../PRBSJ/assets/languages/PRBSJ.json#/PRBSJ/LBL/LBL_PRBSJ_CIMPIUFGW_91701"
+                                            },
+                                            "labelId": "LBL_PRBSJ_CIMPIUFGW_91701",
+                                            "moduleId": "PRBSJ"
+                                        },
+                                        "maxRecords": null,
+                                        "name": "cI",
+                                        "options": 0,
+                                        "order": 1,
+                                        "readOnly": 8,
+                                        "responsiveLayouts": null,
+                                        "responsivity": false,
+                                        "sizeWidthComposite": null,
+                                        "style": null,
+                                        "textRows": 0,
+                                        "userControl": {
+                                            "type": "I",
+                                            "userControlId": "TextInputBox"
+                                        },
+                                        "visible": 4095,
+                                        "visualAttributeId": "VA_TEXTINPUTBOXATY_167151",
+                                        "width": null,
+                                        "widthComposite": "D"
+                                    },
+                                    {
+                                        "aggregate": null,
+                                        "aggregateId": null,
+                                        "attribute": {
+                                            "$ref": "../../../../PRBSJ/entities/EN_CLIENTECL_719.json#/attributes/AT37_TELEFONO719"
+                                        },
+                                        "attributeValidations": [
+                                        ],
+                                        "colSpan": 1,
+                                        "componentInGrid": false,
+                                        "componentStyle": null,
+                                        "customEvents": [
+                                        ],
+                                        "customizationLayer": 0,
+                                        "customizationLayerDescription": "ECU",
+                                        "enabled": 4095,
+                                        "include": 4095,
+                                        "label": {
+                                            "defaultValue": {
+                                                "$ref": "../../../../PRBSJ/assets/languages/PRBSJ.json#/PRBSJ/LBL/LBL_PRBSJ_TELFONOHX_38172"
+                                            },
+                                            "labelId": "LBL_PRBSJ_TELFONOHX_38172",
+                                            "moduleId": "PRBSJ"
+                                        },
+                                        "maxRecords": null,
+                                        "name": "telefono",
+                                        "options": 0,
+                                        "order": 4,
+                                        "readOnly": 8,
+                                        "responsiveLayouts": null,
+                                        "responsivity": false,
+                                        "sizeWidthComposite": null,
+                                        "style": null,
+                                        "textRows": 0,
+                                        "userControl": {
+                                            "type": "I",
+                                            "userControlId": "TextInputBox"
+                                        },
+                                        "visible": 4095,
+                                        "visualAttributeId": "VA_TEXTINPUTBOXQGR_866151",
+                                        "width": null,
+                                        "widthComposite": "D"
+                                    },
+                                    {
+                                        "aggregate": null,
+                                        "aggregateId": null,
+                                        "attribute": {
+                                            "$ref": "../../../../PRBSJ/entities/EN_CLIENTECL_719.json#/attributes/AT69_APELLIOO719"
+                                        },
+                                        "attributeValidations": [
+                                        ],
+                                        "colSpan": 1,
+                                        "componentInGrid": false,
+                                        "componentStyle": null,
+                                        "customEvents": [
+                                        ],
+                                        "customizationLayer": 0,
+                                        "customizationLayerDescription": "ECU",
+                                        "enabled": 4095,
+                                        "include": 4095,
+                                        "label": {
+                                            "defaultValue": {
+                                                "$ref": "../../../../PRBSJ/assets/languages/PRBSJ.json#/PRBSJ/LBL/LBL_PRBSJ_APELLIDOO_79070"
+                                            },
+                                            "labelId": "LBL_PRBSJ_APELLIDOO_79070",
+                                            "moduleId": "PRBSJ"
+                                        },
+                                        "maxRecords": null,
+                                        "name": "apellido",
+                                        "options": 0,
+                                        "order": 3,
+                                        "readOnly": 8,
+                                        "responsiveLayouts": null,
+                                        "responsivity": false,
+                                        "sizeWidthComposite": null,
+                                        "style": null,
+                                        "textRows": 0,
+                                        "userControl": {
+                                            "type": "I",
+                                            "userControlId": "TextInputBox"
+                                        },
+                                        "visible": 4095,
+                                        "visualAttributeId": "VA_TEXTINPUTBOXTQR_809151",
+                                        "width": null,
+                                        "widthComposite": "D"
+                                    },
+                                    {
+                                        "aggregate": null,
+                                        "aggregateId": null,
+                                        "attribute": {
+                                            "$ref": "../../../../PRBSJ/entities/EN_CLIENTECL_719.json#/attributes/AT55_NOMBREVM719"
+                                        },
+                                        "attributeValidations": [
+                                        ],
+                                        "colSpan": 1,
+                                        "componentInGrid": false,
+                                        "componentStyle": null,
+                                        "customEvents": [
+                                        ],
+                                        "customizationLayer": 0,
+                                        "customizationLayerDescription": "ECU",
+                                        "enabled": 4095,
+                                        "include": 4095,
+                                        "label": {
+                                            "defaultValue": {
+                                                "$ref": "../../../../PRBSJ/assets/languages/PRBSJ.json#/PRBSJ/LBL/LBL_PRBSJ_NOMBREPLM_18111"
+                                            },
+                                            "labelId": "LBL_PRBSJ_NOMBREPLM_18111",
+                                            "moduleId": "PRBSJ"
+                                        },
+                                        "maxRecords": null,
+                                        "name": "nombre",
+                                        "options": 0,
+                                        "order": 2,
+                                        "readOnly": 8,
+                                        "responsiveLayouts": null,
+                                        "responsivity": false,
+                                        "sizeWidthComposite": null,
+                                        "style": null,
+                                        "textRows": 0,
+                                        "userControl": {
+                                            "type": "I",
+                                            "userControlId": "TextInputBox"
+                                        },
+                                        "visible": 4095,
+                                        "visualAttributeId": "VA_TEXTINPUTBOXZFJ_655151",
+                                        "width": null,
+                                        "widthComposite": "D"
+                                    },
+                                    {
+                                        "aggregate": null,
+                                        "aggregateId": null,
+                                        "attributeValidations": [
+                                        ],
+                                        "colSpan": 1,
+                                        "componentInGrid": false,
+                                        "componentStyle": null,
+                                        "customEvents": [
+                                            {
+                                                "customEventId": "CEVA_010VA_VABUTTONWQWQIKI_894151_417",
+                                                "customizationLayer": 0,
+                                                "customizationLayerDescription": "ECU",
+                                                "enabled": "T",
+                                                "eventActions": [
+                                                ],
+                                                "executionType": 1,
+                                                "filter": null,
+                                                "isEnabled": true,
+                                                "visualAttributeEventType": {
+                                                    "availableExecutionType": 7,
+                                                    "description": "Permite personalizar la acción a ejecutar de un command o de un ActionControl",
+                                                    "eventId": 10,
+                                                    "name": "ExecuteCommand"
+                                                }
+                                            }
+                                        ],
+                                        "customizationLayer": 0,
+                                        "customizationLayerDescription": "ECU",
+                                        "enabled": 4095,
+                                        "entityQuery": null,
+                                        "include": 4095,
+                                        "label": {
+                                            "defaultValue": {
+                                                "$ref": "../../../../PRBSJ/assets/languages/PRBSJ.json#/PRBSJ/LBL/LBL_PRBSJ_CAMBIARII_78435"
+                                            },
+                                            "labelId": "LBL_PRBSJ_CAMBIARII_78435",
+                                            "moduleId": "PRBSJ"
+                                        },
+                                        "maxRecords": null,
+                                        "name": "VA_VABUTTONWQWQIKI_894151",
+                                        "options": 0,
+                                        "order": 5,
+                                        "queryModule": null,
+                                        "queryVersion": null,
+                                        "responsiveLayouts": null,
+                                        "responsivity": false,
+                                        "sizeWidthComposite": null,
+                                        "style": null,
+                                        "userControl": {
+                                            "type": "A",
+                                            "userControlId": "Button"
+                                        },
+                                        "visible": 4095,
+                                        "visualAttributeId": "VA_VABUTTONWQWQIKI_894151",
+                                        "width": null,
+                                        "widthComposite": "D"
+                                    }
+                                ]
+                            }
+                        ],
+                        "layoutType": "TabbedLayout",
+                        "name": "TabbedLayout1618",
+                        "order": 1,
+                        "style": null,
+                        "titleLabel": {
+                            "defaultValue": "[Undefined Label]",
+                            "labelId": "[Undefined Label]",
+                            "moduleId": "[Undefined Label]"
+                        },
+                        "visible": 4095
+                    }
+                ],
+                "id": {
+                    "version": "1.0.0",
+                    "viewId": "VW_TESTHEADEE_151"
+                },
+                "metadataVersion": "6.10.0.1809",
+                "modules": [
+                    {
+                        "moduleId": "PRBSJ"
+                    }
+                ],
+                "name": "View of TestHeader"
+            }
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "collapsed": "",
+    "entityId": [
+        "EN_HEADEREVG_755"
+    ],
+    "entityToSend": [
+        "Header"
+    ],
+    "headerId": "HD_HEADERJIS_479",
+    "headerInfoProduct": [
+        {
+            "label": "PRBSJ.LBL_PRBSJ_MONTONBFV_91965",
+            "value": "Header.attrUno"
+        },
+        {
+            "label": "PRBSJ.LBL_PRBSJ_SALDOFEFE_50038",
+            "value": "Header.attrDos"
+        },
+        {
+            "label": "DSGNR.SYS_DSGNR_MSGERRGRP_00077",
+            "value": "Header.attrTres"
+        },
+        {
+            "label": "PRBSJ.LBL_PRBSJ_FECHAINCO_46704",
+            "value": "Header.attrCuatro"
+        },
+        {
+            "label": "PRBSJ.LBL_PRBSJ_FECHAFINN_75300",
+            "value": "Header.attrCinco"
+        },
+        {
+            "label": "PRBSJ.LBL_PRBSJ_ESTADOXYM_13057",
+            "value": "Header.attrSeis"
+        },
+        {
+            "label": "PRBSJ.LBL_PRBSJ_ACUMULANI_40269",
+            "value": "Header.attrSiete"
+        }
+    ],
+    "name": "HeaderJSI",
+    "primaryText": {
+        "firstAttributeName": "Header.principalUno",
+        "secondAttributeName": "Header.principalDos"
+    },
+    "searchPage": "",
+    "secundaryText": {
+        "firstAttributeName": "Header.secundarioUno",
+        "secondAttributeName": "Header.secundarioDos"
+    },
+    "showInfo": 5
+}
