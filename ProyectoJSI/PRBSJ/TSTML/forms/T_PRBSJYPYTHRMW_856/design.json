@@ -1,0 +1,295 @@
+{
+    "autoCrudStr": "F",
+    "cobisPattern": "None",
+    "cobisPatternId": 0,
+    "commands": [
+    ],
+    "customEvents": [
+    ],
+    "customizationLayer": 0,
+    "customizationLayerDescription": "ECU",
+    "graphicSupportStr": "F",
+    "header": null,
+    "id": {
+        "moduleId": "PRBSJ",
+        "subModuleId": "TSTML",
+        "taskId": "T_PRBSJYPYTHRMW_856",
+        "version": "1.0.0"
+    },
+    "isImported": false,
+    "mainViewContainerId": "VC_ACTIONSWPH_949856",
+    "modeEnabled": 4095,
+    "name": {
+        "$ref": "../../../../PRBSJ/relations/componentKeys.json#/TSTML/Forms/T_PRBSJYPYTHRMW_856/name"
+    },
+    "tempSaveStr": "F",
+    "viewContainers": [
+        {
+            "breadcrumbs": "Automatic",
+            "colSpan": 1,
+            "collapsedStr": "F",
+            "columnsNum": 1,
+            "componentStyle": null,
+            "customEvents": [
+            ],
+            "customizationLayer": 0,
+            "customizationLayerDescription": "ECU",
+            "enabled": 4095,
+            "id": {
+                "moduleId": "PRBSJ",
+                "subModuleId": "TSTML",
+                "taskId": "T_PRBSJYPYTHRMW_856",
+                "taskVersion": "1.0.0",
+                "viewContainerId": "VC_ACTIONSWPH_949856"
+            },
+            "layoutType": "Group",
+            "name": "Actions",
+            "options": 0,
+            "responsiveLayouts": null,
+            "responsivity": false,
+            "style": null,
+            "view": {
+                "groups": [
+                    {
+                        "colSpan": 1,
+                        "collapsedStr": "F",
+                        "columnsNum": 3,
+                        "componentStyle": null,
+                        "customEvents": [
+                        ],
+                        "enabled": 4095,
+                        "entity": {
+                            "$ref": "../../../../PRBSJ/entities/EN_CLIENTECL_719.json#"
+                        },
+                        "eventType": 0,
+                        "groupId": "G_ACTIONSVIU_558371",
+                        "htmlSection": "F",
+                        "independentValidation": "F",
+                        "layoutType": "Group",
+                        "name": "Group1120",
+                        "order": 1,
+                        "orientation": "V",
+                        "responsiveLayouts": null,
+                        "responsivity": false,
+                        "style": null,
+                        "visible": 4095,
+                        "visualAttributes": [
+                            {
+                                "aggregate": null,
+                                "aggregateId": null,
+                                "attribute": {
+                                    "$ref": "../../../../PRBSJ/entities/EN_CLIENTECL_719.json#/attributes/AT55_NOMBREVM719"
+                                },
+                                "attributeValidations": [
+                                ],
+                                "colSpan": 1,
+                                "componentInGrid": false,
+                                "componentStyle": null,
+                                "customEvents": [
+                                ],
+                                "customizationLayer": 0,
+                                "customizationLayerDescription": "ECU",
+                                "enabled": 4095,
+                                "include": 4095,
+                                "label": {
+                                    "defaultValue": {
+                                        "$ref": "../../../../PRBSJ/assets/languages/PRBSJ.json#/PRBSJ/LBL/LBL_PRBSJ_NOMBREPLM_18111"
+                                    },
+                                    "labelId": "LBL_PRBSJ_NOMBREPLM_18111",
+                                    "moduleId": "PRBSJ"
+                                },
+                                "maxRecords": null,
+                                "name": "nombre",
+                                "options": 0,
+                                "order": 2,
+                                "readOnly": 8,
+                                "responsiveLayouts": null,
+                                "responsivity": false,
+                                "sizeWidthComposite": null,
+                                "style": null,
+                                "textRows": 0,
+                                "userControl": {
+                                    "type": "I",
+                                    "userControlId": "TextInputBox"
+                                },
+                                "visible": 4095,
+                                "visualAttributeId": "VA_TEXTINPUTBOXCQL_579371",
+                                "width": null,
+                                "widthComposite": "D"
+                            },
+                            {
+                                "aggregate": null,
+                                "aggregateId": null,
+                                "attribute": {
+                                    "$ref": "../../../../PRBSJ/entities/EN_CLIENTECL_719.json#/attributes/AT68_CIRLUCDT719"
+                                },
+                                "attributeValidations": [
+                                ],
+                                "colSpan": 1,
+                                "componentInGrid": false,
+                                "componentStyle": null,
+                                "customEvents": [
+                                    {
+                                        "customEventId": "CEVA_104VA_TEXTINPUTBOXEJQ_342371_820",
+                                        "customizationLayer": 0,
+                                        "customizationLayerDescription": "ECU",
+                                        "enabled": "T",
+                                        "eventActions": [
+                                            {
+                                                "actionArgs": [
+                                                ],
+                                                "actionId": "CUSTOM",
+                                                "actionType": "CUSTOM"
+                                            },
+                                            {
+                                                "actionArgs": [
+                                                ],
+                                                "actionId": "BLI2629_bli_javy_test",
+                                                "actionType": "BLI"
+                                            }
+                                        ],
+                                        "executionType": 2,
+                                        "filter": null,
+                                        "isEnabled": true,
+                                        "visualAttributeEventType": {
+                                            "availableExecutionType": 7,
+                                            "description": "Se ejecuta al cambiar el valor de un VisualAttribute",
+                                            "eventId": 104,
+                                            "name": "Changed"
+                                        }
+                                    }
+                                ],
+                                "customizationLayer": 0,
+                                "customizationLayerDescription": "ECU",
+                                "enabled": 4095,
+                                "include": 4095,
+                                "label": {
+                                    "defaultValue": {
+                                        "$ref": "../../../../PRBSJ/assets/languages/PRBSJ.json#/PRBSJ/LBL/LBL_PRBSJ_CIMPIUFGW_91701"
+                                    },
+                                    "labelId": "LBL_PRBSJ_CIMPIUFGW_91701",
+                                    "moduleId": "PRBSJ"
+                                },
+                                "maxRecords": null,
+                                "name": "cI",
+                                "options": 0,
+                                "order": 1,
+                                "readOnly": 8,
+                                "responsiveLayouts": null,
+                                "responsivity": false,
+                                "sizeWidthComposite": null,
+                                "style": null,
+                                "textRows": 0,
+                                "userControl": {
+                                    "type": "I",
+                                    "userControlId": "TextInputBox"
+                                },
+                                "visible": 4095,
+                                "visualAttributeId": "VA_TEXTINPUTBOXEJQ_342371",
+                                "width": null,
+                                "widthComposite": "D"
+                            },
+                            {
+                                "aggregate": null,
+                                "aggregateId": null,
+                                "attribute": {
+                                    "$ref": "../../../../PRBSJ/entities/EN_CLIENTECL_719.json#/attributes/AT69_APELLIOO719"
+                                },
+                                "attributeValidations": [
+                                ],
+                                "colSpan": 1,
+                                "componentInGrid": false,
+                                "componentStyle": null,
+                                "customEvents": [
+                                ],
+                                "customizationLayer": 0,
+                                "customizationLayerDescription": "ECU",
+                                "enabled": 4095,
+                                "include": 4095,
+                                "label": {
+                                    "defaultValue": {
+                                        "$ref": "../../../../PRBSJ/assets/languages/PRBSJ.json#/PRBSJ/LBL/LBL_PRBSJ_APELLIDOO_79070"
+                                    },
+                                    "labelId": "LBL_PRBSJ_APELLIDOO_79070",
+                                    "moduleId": "PRBSJ"
+                                },
+                                "maxRecords": null,
+                                "name": "apellido",
+                                "options": 0,
+                                "order": 3,
+                                "readOnly": 8,
+                                "responsiveLayouts": null,
+                                "responsivity": false,
+                                "sizeWidthComposite": null,
+                                "style": null,
+                                "textRows": 0,
+                                "userControl": {
+                                    "type": "I",
+                                    "userControlId": "TextInputBox"
+                                },
+                                "visible": 4095,
+                                "visualAttributeId": "VA_TEXTINPUTBOXGHF_100371",
+                                "width": null,
+                                "widthComposite": "D"
+                            },
+                            {
+                                "aggregate": null,
+                                "aggregateId": null,
+                                "attribute": {
+                                    "$ref": "../../../../PRBSJ/entities/EN_CLIENTECL_719.json#/attributes/AT37_TELEFONO719"
+                                },
+                                "attributeValidations": [
+                                ],
+                                "colSpan": 1,
+                                "componentInGrid": false,
+                                "componentStyle": null,
+                                "customEvents": [
+                                ],
+                                "customizationLayer": 0,
+                                "customizationLayerDescription": "ECU",
+                                "enabled": 4095,
+                                "include": 4095,
+                                "label": {
+                                    "defaultValue": {
+                                        "$ref": "../../../../PRBSJ/assets/languages/PRBSJ.json#/PRBSJ/LBL/LBL_PRBSJ_TELFONOHX_38172"
+                                    },
+                                    "labelId": "LBL_PRBSJ_TELFONOHX_38172",
+                                    "moduleId": "PRBSJ"
+                                },
+                                "maxRecords": null,
+                                "name": "telefono",
+                                "options": 0,
+                                "order": 4,
+                                "readOnly": 8,
+                                "responsiveLayouts": null,
+                                "responsivity": false,
+                                "sizeWidthComposite": null,
+                                "style": null,
+                                "textRows": 0,
+                                "userControl": {
+                                    "type": "I",
+                                    "userControlId": "TextInputBox"
+                                },
+                                "visible": 4095,
+                                "visualAttributeId": "VA_TEXTINPUTBOXHQU_170371",
+                                "width": null,
+                                "widthComposite": "D"
+                            }
+                        ]
+                    }
+                ],
+                "id": {
+                    "version": "1.0.0",
+                    "viewId": "VW_ACTIONSEHH_371"
+                },
+                "metadataVersion": "6.10.0.1810",
+                "modules": [
+                    {
+                        "moduleId": "PRBSJ"
+                    }
+                ],
+                "name": "View of Actions"
+            }
+        }
+    ]
+}
