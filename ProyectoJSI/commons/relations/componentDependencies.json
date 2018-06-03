@@ -1,0 +1,176 @@
+{
+    "CompositeForms": {
+    },
+    "Entities": {
+        "EN_CLIENTECL_719": {
+            "labels": [
+                "LBL_PRBSJ_TELFONOHX_38172",
+                "LBL_PRBSJ_NOMBREPLM_18111",
+                "LBL_PRBSJ_CIMPIUFGW_91701",
+                "LBL_PRBSJ_APELLIDOO_79070"
+            ]
+        },
+        "EN_CUENTAOOT_656": {
+            "labels": [
+                "LBL_PRBSJ_FECHAWEJU_76678",
+                "LBL_PRBSJ_NMEROCUNE_50770",
+                "LBL_PRBSJ_SALDOFEFE_50038"
+            ]
+        },
+        "EN_HEADEREVG_755": {
+            "labels": [
+                "LBL_PRBSJ_NOMBREPLM_18111",
+                "LBL_PRBSJ_APELLIDOO_79070",
+                "LBL_PRBSJ_CIMPIUFGW_91701",
+                "LBL_PRBSJ_PRINCIPAL_25251",
+                "LBL_PRBSJ_MONTONBFV_91965",
+                "LBL_PRBSJ_SALDOFEFE_50038",
+                "LBL_PRBSJ_FECHAINCO_46704",
+                "LBL_PRBSJ_FECHAFINN_75300",
+                "LBL_PRBSJ_ESTADOXYM_13057",
+                "LBL_PRBSJ_ACUMULANI_40269"
+            ]
+        }
+    },
+    "Forms": {
+        "T_PRBSJLYWGFVKT_232": {
+            "entities": {
+                "EN_CLIENTECL_719": [
+                    "AT37_TELEFONO719",
+                    "AT69_APELLIOO719",
+                    "AT68_CIRLUCDT719",
+                    "AT55_NOMBREVM719"
+                ]
+            },
+            "externalEntities": {
+            },
+            "externalQueries": {
+            },
+            "labels": [
+                "LBL_PRBSJ_TELFONOHX_38172",
+                "LBL_PRBSJ_APELLIDOO_79070",
+                "LBL_PRBSJ_CIMPIUFGW_91701",
+                "LBL_PRBSJ_NOMBREPLM_18111",
+                "LBL_PRBSJ_GUARDARAG_21949",
+                "LBL_PRBSJ_CANCELARR_40357"
+            ],
+            "queries": {
+            },
+            "subForms": [
+            ]
+        },
+        "T_PRBSJQMYFURKH_597": {
+            "entities": {
+                "EN_CUENTAOOT_656": [
+                    "AT78_SALDOBYY656",
+                    "AT40_FECHAUUR656",
+                    "AT53_NUMEROMR656"
+                ]
+            },
+            "externalEntities": {
+            },
+            "externalQueries": {
+            },
+            "labels": [
+                "LBL_PRBSJ_SALDOFEFE_50038",
+                "LBL_PRBSJ_FECHAWEJU_76678",
+                "LBL_PRBSJ_NMEROCUNE_50770",
+                "LBL_PRBSJ_ATRASMCBH_89420"
+            ],
+            "queries": {
+                "Q_CUENTAHU_7327": [
+                    "QM_CUENT37UA2317_01",
+                    "QM_CUENTHAH7U906_02",
+                    "QM_CUENT27UA7591_03"
+                ]
+            },
+            "subForms": [
+            ]
+        },
+        "T_PRBSJSXHIPDRX_306": {
+            "entities": {
+                "EN_CLIENTECL_719": [
+                    "AT68_CIRLUCDT719",
+                    "AT37_TELEFONO719",
+                    "AT69_APELLIOO719",
+                    "AT55_NOMBREVM719"
+                ],
+                "EN_CUENTAOOT_656": [
+                    "AT78_SALDOBYY656",
+                    "AT40_FECHAUUR656",
+                    "AT53_NUMEROMR656"
+                ],
+                "EN_HEADEREVG_755": [
+                ]
+            },
+            "externalEntities": {
+            },
+            "externalQueries": {
+            },
+            "labels": [
+                "LBL_PRBSJ_CAMBIARMN_55188",
+                "LBL_PRBSJ_SALDOFEFE_50038",
+                "LBL_PRBSJ_FECHAWEJU_76678",
+                "LBL_PRBSJ_NMEROCUNE_50770",
+                "LBL_PRBSJ_CUENTAQUM_51322",
+                "LBL_PRBSJ_CIMPIUFGW_91701",
+                "LBL_PRBSJ_TELFONOHX_38172",
+                "LBL_PRBSJ_APELLIDOO_79070",
+                "LBL_PRBSJ_NOMBREPLM_18111",
+                "LBL_PRBSJ_CAMBIARII_78435",
+                "LBL_PRBSJ_CLIENTEKY_38464",
+                "LBL_PRBSJ_GUARDARAG_21949"
+            ],
+            "queries": {
+                "Q_CUENTAND_4143": [
+                    "QM_CUENTD3433192_01",
+                    "QM_CUENTDA3N4992_02",
+                    "QM_CUENT4ANA4826_03"
+                ]
+            },
+            "subForms": [
+            ]
+        },
+        "T_PRBSJWGYXTIWJ_312": {
+            "entities": {
+            },
+            "externalEntities": {
+            },
+            "externalQueries": {
+            },
+            "labels": [
+                "LBL_PRBSJ_EJECUTARR_72696"
+            ],
+            "queries": {
+            },
+            "subForms": [
+            ]
+        },
+        "T_PRBSJYPYTHRMW_856": {
+            "entities": {
+                "EN_CLIENTECL_719": [
+                    "AT55_NOMBREVM719",
+                    "AT68_CIRLUCDT719",
+                    "AT69_APELLIOO719",
+                    "AT37_TELEFONO719"
+                ]
+            },
+            "externalEntities": {
+            },
+            "externalQueries": {
+            },
+            "labels": [
+                "LBL_PRBSJ_NOMBREPLM_18111",
+                "LBL_PRBSJ_CIMPIUFGW_91701",
+                "LBL_PRBSJ_APELLIDOO_79070",
+                "LBL_PRBSJ_TELFONOHX_38172"
+            ],
+            "queries": {
+            },
+            "subForms": [
+            ]
+        }
+    },
+    "Queries": {
+    }
+}

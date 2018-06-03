@@ -1,0 +1,72 @@
+{
+    "procedure": {
+        "database": "cob_demo",
+        "name": "sp_trabajo",
+        "parameters": [
+            {
+                "dataType": "char",
+                "direction": "in",
+                "name": "@i_operacion"
+            },
+            {
+                "dataType": "varchar",
+                "direction": "in",
+                "name": "@i_tr_ente"
+            },
+            {
+                "dataType": "varchar",
+                "direction": "in",
+                "name": "@i_tr_empresa"
+            },
+            {
+                "dataType": "varchar",
+                "direction": "in",
+                "name": "@i_tr_direccion"
+            },
+            {
+                "dataType": "varchar",
+                "direction": "in",
+                "name": "@i_tr_telefono"
+            },
+            {
+                "dataType": "varchar",
+                "direction": "in",
+                "name": "@i_tr_cargo"
+            },
+            {
+                "dataType": "varchar",
+                "direction": "in",
+                "name": "@i_prueba"
+            },
+            {
+                "dataType": "varchar",
+                "direction": "out",
+                "name": "@_ppp"
+            },
+            {
+                "dataType": "varchar",
+                "direction": "out",
+                "name": "@i_lo"
+            },
+            {
+                "dataType": "varchar",
+                "direction": "out",
+                "name": "@i_pe"
+            }
+        ],
+        "queries": [
+            {
+                "columns": [
+                    "tr_ente",
+                    "tr_empresa",
+                    "tr_direccion",
+                    "tr_telefono",
+                    "tr_cargo",
+                    "tr_salario"
+                ],
+                "queryText": "SELECT 1"
+            }
+        ],
+        "type": "SYBASE"
+    }
+}

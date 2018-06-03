@@ -1,0 +1,30 @@
+{
+    "entities": [
+        {
+            "entityId": "EN_CUENTAOOT_656",
+            "isContextEntity": null,
+            "moduleId": "PRBSJ",
+            "related": false
+        },
+        {
+            "entityId": "EN_CLIENTECL_719",
+            "isContextEntity": null,
+            "moduleId": "PRBSJ",
+            "related": false
+        },
+        {
+            "entityId": "EN_HEADEREVG_755",
+            "isContextEntity": true,
+            "moduleId": "PRBSJ",
+            "related": false
+        }
+    ],
+    "queries": [
+        {
+            "moduleId": "PRBSJ",
+            "queryId": "Q_CUENTAND_4143",
+            "related": false,
+            "subModuleId": "TSTCB"
+        }
+    ]
+}

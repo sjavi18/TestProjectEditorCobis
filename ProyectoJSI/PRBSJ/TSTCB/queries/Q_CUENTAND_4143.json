@@ -1,0 +1,102 @@
+{
+    "customEvents": [
+        {
+            "executionType": 1,
+            "queryEventType": {
+                "availableExecutionType": 7,
+                "description": "Sobreescribe la ejecución de un Query",
+                "eventId": 130,
+                "name": "ExecuteQuery"
+            }
+        }
+    ],
+    "customizationLayer": 0,
+    "customizationLayerDescription": "ECU",
+    "id": {
+        "queryId": "Q_CUENTAND_4143",
+        "version": "1.0.0"
+    },
+    "isAutomatic": false,
+    "isImported": false,
+    "mainEntityId": "EN_CUENTAOOT_656",
+    "mainEntityModule": "PRBSJ",
+    "mainEntityName": {
+        "$ref": "../../../PRBSJ/relations/componentKeys.json#/Entities/EN_CUENTAOOT_656/name"
+    },
+    "mainEntityVersion": "1.0.0",
+    "name": {
+        "$ref": "../../../PRBSJ/relations/componentKeys.json#/TSTCB/Queries/Q_CUENTAND_4143/name"
+    },
+    "queryMembers": [
+        {
+            "alias": "numero",
+            "attribute": {
+                "$ref": "../../../PRBSJ/entities/EN_CUENTAOOT_656.json#/attributes/AT53_NUMEROMR656"
+            },
+            "customizationLayer": null,
+            "customizationLayerDescription": null,
+            "defaultValue": null,
+            "defaultValueDataType": null,
+            "function": null,
+            "label": null,
+            "operator": null,
+            "order": 1,
+            "orderBy": 0,
+            "orderByDirection": "A",
+            "queryMemberId": "QM_CUENTD3433192_01",
+            "select": true,
+            "selectStr": "T",
+            "whereStr": "F"
+        },
+        {
+            "alias": "saldo",
+            "attribute": {
+                "$ref": "../../../PRBSJ/entities/EN_CUENTAOOT_656.json#/attributes/AT78_SALDOBYY656"
+            },
+            "customizationLayer": null,
+            "customizationLayerDescription": null,
+            "defaultValue": null,
+            "defaultValueDataType": null,
+            "function": null,
+            "label": null,
+            "operator": null,
+            "order": 2,
+            "orderBy": 0,
+            "orderByDirection": "A",
+            "queryMemberId": "QM_CUENTDA3N4992_02",
+            "select": true,
+            "selectStr": "T",
+            "whereStr": "F"
+        },
+        {
+            "alias": "fecha",
+            "attribute": {
+                "$ref": "../../../PRBSJ/entities/EN_CUENTAOOT_656.json#/attributes/AT40_FECHAUUR656"
+            },
+            "customizationLayer": null,
+            "customizationLayerDescription": null,
+            "defaultValue": null,
+            "defaultValueDataType": null,
+            "function": null,
+            "label": null,
+            "operator": null,
+            "order": 3,
+            "orderBy": 0,
+            "orderByDirection": "A",
+            "queryMemberId": "QM_CUENT4ANA4826_03",
+            "select": true,
+            "selectStr": "T",
+            "whereStr": "F"
+        }
+    ],
+    "related": false,
+    "sqlWhere": null,
+    "subModules": [
+        {
+            "id": {
+                "moduleId": "PRBSJ",
+                "subModuleId": "TSTCB"
+            }
+        }
+    ]
+}

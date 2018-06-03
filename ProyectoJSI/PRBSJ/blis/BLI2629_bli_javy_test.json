@@ -1,0 +1,66 @@
+{
+    "databaseType": "Sybase",
+    "inputEntity": [
+        {
+            "entityId": "EN_CLIENTECL_719",
+            "name": "Cliente"
+        }
+    ],
+    "inputParameters": [
+        {
+            "attributeId": "AT68_CIRLUCDT719",
+            "bddType": "varchar",
+            "dataType": "VARCHAR",
+            "direction": "in",
+            "entityId": "EN_CLIENTECL_719",
+            "format": "",
+            "name": "@i_tr_ente",
+            "type": "ATTRIBUTE",
+            "value": ""
+        }
+    ],
+    "name": "BLI_Javy_test",
+    "outputEntity": [
+        {
+            "entityId": "EN_CUENTAOOT_656",
+            "name": "Cuenta"
+        }
+    ],
+    "outputParameters": [
+        {
+            "attributeId": "AT53_NUMEROMR656",
+            "bddType": "varchar",
+            "dataType": "VARCHAR",
+            "direction": "out",
+            "entityId": "EN_CUENTAOOT_656",
+            "format": "",
+            "name": "@i_lo",
+            "type": "ATTRIBUTE",
+            "value": ""
+        }
+    ],
+    "patternId": "BLI2629_bli_javy_test",
+    "patternName": "BLI_Javy_test",
+    "patternType": "Bli",
+    "queries": [
+        {
+            "isMapReturn": false,
+            "isReturn": true,
+            "isSingleResult": false,
+            "numberQuery": 1,
+            "queryName": "SELECT 1"
+        }
+    ],
+    "resultSets": [
+    ],
+    "returnEntity": [
+        {
+            "entityId": "EN_HEADEREVG_755",
+            "name": "Header"
+        }
+    ],
+    "server": "CENTRAL",
+    "serviceID": "cob_demo.sp_trabajo",
+    "type": "SP",
+    "typeMapping": "MAPJava"
+}

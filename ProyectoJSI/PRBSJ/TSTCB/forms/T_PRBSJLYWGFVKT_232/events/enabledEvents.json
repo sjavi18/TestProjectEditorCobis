@@ -1,0 +1,16 @@
+[
+    {
+        "attributeName": "",
+        "controlId": "CM_TPRBSJLY_6B8",
+        "controlName": "",
+        "controlType": "",
+        "enabledEvents": [
+            "executeCommand"
+        ],
+        "enabledEventsExecutionType": [
+            3
+        ],
+        "entityName": "",
+        "eventsType": "commandEventType"
+    }
+]

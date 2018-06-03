@@ -1,0 +1,64 @@
+{
+    "Entities": {
+        "EN_CLIENTECL_719": {
+            "name": "Cliente"
+        },
+        "EN_CUENTAOOT_656": {
+            "name": "Cuenta"
+        },
+        "EN_HEADEREVG_755": {
+            "name": "Header"
+        }
+    },
+    "TSTCB": {
+        "CompositeForms": {
+        },
+        "Forms": {
+            "T_PRBSJLYWGFVKT_232": {
+                "name": "Cliente"
+            },
+            "T_PRBSJQMYFURKH_597": {
+                "name": "Cuenta"
+            },
+            "T_PRBSJSXHIPDRX_306": {
+                "name": "TestHeader"
+            }
+        },
+        "Queries": {
+            "Q_CUENTAHU_7327": {
+                "name": "CuentaQuery_7327"
+            },
+            "Q_CUENTAND_4143": {
+                "name": "CuentaQuery_4143"
+            }
+        },
+        "SubForms": {
+        }
+    },
+    "TSTCL": {
+        "CompositeForms": {
+        },
+        "Forms": {
+            "T_PRBSJWGYXTIWJ_312": {
+                "name": "TestBli"
+            }
+        },
+        "Queries": {
+        },
+        "SubForms": {
+        }
+    },
+    "TSTML": {
+        "CompositeForms": {
+        },
+        "Forms": {
+            "T_PRBSJYPYTHRMW_856": {
+                "name": "Actions"
+            }
+        },
+        "Queries": {
+        },
+        "SubForms": {
+        }
+    }
+}
