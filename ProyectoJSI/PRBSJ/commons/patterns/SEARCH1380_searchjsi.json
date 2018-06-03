@@ -1,0 +1,18 @@
+{
+    "codeWizardGeneratorNavigation": "//Method to navigate from selecting row. Please copy your content in file: COBIS-search-navigation.js\r\nSearchDestination_COBIS.getNavigationFor_Operaciones= function(selectors, args){\r\n    var nav = args.commons.api.navigation;\r\n    \r\n    nav.address = {\r\n        moduleId: 'PRBSJ',\r\n        subModuleId: 'TSTCL',\r\n        taskId: 'T_PRBSJWGYXTIWJ_312',\r\n        taskVersion: '1.0.0',\r\n        viewContainerId: 'VC_TESTBLIYBJ_492312'\r\n    };\r\n    nav.queryParameters = {\r\n        mode: 1\r\n    };\r\n\r\n    \r\n\r\n}",
+    "menuEtiqueta": "MNU_SEARCH_CCA",
+    "moduleId": "PRBSJ",
+    "patternId": "SEARCH1380_searchjsi",
+    "patternName": "SearchJSI",
+    "patternType": "Search",
+    "selectedDestination": "designerF",
+    "selectedForm": "T_PRBSJWGYXTIWJ_312",
+    "selectedMode": "1",
+    "selectedNavigationModule": "PRBSJ",
+    "selectedNavigationSubmodule": "TSTCL",
+    "selectors": {
+        "customerId": "COBIS",
+        "itemId": "Operaciones",
+        "productId": "CCA"
+    }
+}

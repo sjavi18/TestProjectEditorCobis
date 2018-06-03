@@ -1,0 +1,16 @@
+[
+    {
+        "attributeName": "cI",
+        "controlId": "VA_TEXTINPUTBOXEJQ_342371",
+        "controlName": "cI",
+        "controlType": "TextInputBox",
+        "enabledEvents": [
+            "change"
+        ],
+        "enabledEventsExecutionType": [
+            2
+        ],
+        "entityName": "Cliente",
+        "eventsType": "visualAttributeEventType"
+    }
+]
